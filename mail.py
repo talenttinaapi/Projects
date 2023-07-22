@@ -6,7 +6,7 @@ import smtplib
 email_sender = 'ttinaapi88@gmail.com'
 email_password = password
 
-email_reciever = 'vacoxay699@ridteam.com'
+email_reciever = 'talent.tinaapi@rsaweb.net'
 
 subject = "Testing Python mail app"
 body = """"
