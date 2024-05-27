@@ -10,7 +10,7 @@ email_reciever = 'talent.tinaapi@rsaweb.net'
 
 subject = "Testing Python mail app"
 body = """"
-Flexing some Python muscles
+Python some Python 
 """
 
 em = EmailMessage()

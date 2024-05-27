@@ -1,2 +1,9 @@
 # my_scripts
-Various Python scripts
+
+Various scripts
+
+# Python
+
+# Sql
+# Javascript
+
