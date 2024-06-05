@@ -36,3 +36,9 @@ SELECT*
 FROM machines
 WHERE NOT operating_system = 'OS 3';
 
+
+SELECT*
+FROM machines
+WHERE operating_system IN ('OS 1', 'OS 3');
+OUTER JOIN
+SELECT*
