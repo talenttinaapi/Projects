@@ -36,3 +36,6 @@ SELECT*
 FROM machines
 WHERE NOT operating_system = 'OS 3';
 
+SELECT*
+INNERT JOIN employees
+
