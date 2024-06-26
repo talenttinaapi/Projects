@@ -1,4 +1,4 @@
-# my_scripts
+# Projects
 
 Various scripts
 
