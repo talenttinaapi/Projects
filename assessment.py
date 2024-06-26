@@ -1,7 +1,6 @@
 #python slicing
 def tuple_slice(startIndex, endIndex, tup):
     return None
-
 if __name__ == "__main__":
     print(tuple_slice(1, 4, (76, 34, 13, 64, 12)))
 
@@ -11,7 +10,7 @@ def tuple_slice(start_index, end_index, tup):
 print(tuple_slice(1, 4, (76, 34, 13, 64, 12)))  # Output: (34, 13, 64)
 
 
-
+#Greeting
 class Greeter:
 
     def __init__(self, boss):
