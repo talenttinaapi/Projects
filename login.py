@@ -52,8 +52,8 @@ hour, minute, seconds = gettime()
 
 print(f"The current time is {hour}:{minute}:{seconds}")
 
-import requests
-from bs4 import BeautifulSoup
+import requests # type: ignore
+from bs4 import BeautifulSoup # type: ignore
 
 url = 'https://example.com'
 response = requests.get(url)
