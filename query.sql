@@ -86,3 +86,19 @@ SELECT*
 INNERT JOIN employees
 
 
+WITH employee_ranking AS (
+  SELECT
+    employee_id,
+    last_name,
+    first_name,
+    salary,
+    RANK() OVER (ORDER BY salary DESC) as ranking
+  FROM employee
+)
+SELECT
+  employee_id,
+  last_name,
+  first_name,
+  salary
+FROM employee_ranking
+WHERE ranking = 2
